@@ -8,7 +8,7 @@ import {
   StyleSheet,
   TouchableOpacity,
 } from 'react-native';
-import { loginUser } from '../services/authService.ts';
+
 import { AuthContext } from '../context/authContext.tsx';
 
 const LoginScreen = ({ navigation }) => {
