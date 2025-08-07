@@ -30,8 +30,8 @@ const RegisterScreen = ({ navigation }) => {
     }
 
     try {
-      const res = await register(fname, lname, username, email, password);
-      // console.log('Registered:', res.message);
+      await register(fname, lname, username, email, password);
+      console.log('Registration successful');
       navigation.navigate('Login');
     } catch (err: any) {
       console.warn(err.response?.data?.message || 'Registration failed');

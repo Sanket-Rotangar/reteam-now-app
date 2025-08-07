@@ -20,9 +20,8 @@ const LoginScreen = ({ navigation }) => {
 
   const handleLogin = async () => {
     try {
-      const res = await login(email, password);
-      // console.log('TOKEN:', res.token); // to be stored later'
-
+      await login(email, password);
+      console.log('Login successful'); 
     } catch (err: any) {
       console.warn(err.response?.data?.message || 'Login failed');
     }

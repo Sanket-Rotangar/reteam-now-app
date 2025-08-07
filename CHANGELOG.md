@@ -5,7 +5,9 @@ All notable changes to this project will be documented in this file.
 ### reteam-now-APP {05/08/2025} 
 
 # Functionality Added
-- Login and Authentication 
+- Login and Authentication (06/08/2025)
+- Splash Screen (07/08/2025)
+
 
 # Folders and File Workflow
 
@@ -18,4 +20,9 @@ All notable changes to this project will be documented in this file.
 - src/ services / authService.ts --> contains loginUser and registerUser api endpoints
 
 # Changes 
+- {06/08/2025}
 - Added basic setup files 
+
+- {07/08/2025} 
+- Added splash screen with reteamnow Logo ---> refer assets folder and android/app/src/res/values for any specific change
+- 
