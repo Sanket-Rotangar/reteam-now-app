@@ -9,7 +9,7 @@ import {
   TouchableOpacity,
 } from 'react-native';
 
-import { AuthContext } from '../context/authContext.tsx';
+import { AuthContext } from '../../context/authContext.tsx';
 
 const LoginScreen = ({ navigation }) => {
   const [email, setEmail] = useState('');

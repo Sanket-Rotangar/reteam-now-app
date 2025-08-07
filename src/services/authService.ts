@@ -1,7 +1,7 @@
 // src/services/authService.ts
 import axios from 'axios';
 
-const API_BASE_URL = 'http://192.168.1.12:8062/api'; // not localhost if using mobile
+const API_BASE_URL = 'http://192.168.1.2:8062/api'; // not localhost if using mobile
 
 export const registerUser = async (
   fname: string,

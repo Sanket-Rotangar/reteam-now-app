@@ -8,7 +8,7 @@ import {
   StyleSheet,
   TouchableOpacity,
 } from 'react-native';
-import { AuthContext } from '../context/authContext';
+import { AuthContext } from '../../context/authContext';
 
 
 const RegisterScreen = ({ navigation }) => {
