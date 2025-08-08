@@ -7,7 +7,7 @@ import { AuthContext } from '../context/authContext';
 
 const RootNavigator = () => {
   const { userToken } = useContext(AuthContext);
-  // const userToken = true;
+
   return (
     <NavigationContainer>
       {userToken ? <AppStack /> : <AuthStack />}
